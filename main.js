@@ -1,5 +1,5 @@
 // Variables
-const url = 'Shoshone Arnold Resume 2019.pdf';
+const url = 'Shoshone Arnold CV HQ.pdf';
 
 
 let pdfDoc = null,
@@ -7,7 +7,7 @@ let pdfDoc = null,
   pageIsRedndering = false,
   pageNumIsOending = null;
 
-const scale = 1.5,
+const scale = .7,
   canvas = document.querySelector('#pdf-render'),
   ctx = canvas.getContext('2d');
 
